@@ -1,0 +1,30 @@
+fastapi==0.104.1
+uvicorn==0.23.2
+pydantic==2.4.2
+python-multipart==0.0.6
+python-dotenv==1.0.0
+
+# LangChain
+langchain==0.0.335
+openai==1.2.4
+
+# Memory storage
+redis==5.0.1
+
+# Vector storage
+qdrant-client==1.5.4
+numpy==1.26.1
+
+# Web search
+serpapi==0.1.0
+requests==2.31.0
+
+# Speech services
+google-cloud-texttospeech==2.14.1
+google-cloud-speech==2.21.0
+azure-cognitiveservices-speech==1.30.0
+
+# Testing
+pytest==7.4.3
+pytest-asyncio==0.21.1
+httpx==0.25.1
